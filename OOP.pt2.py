@@ -1,7 +1,7 @@
 class Circle:
     def __init__(self, radius):
         self.radius = radius
-        self.pi = 3.1416  # Approximate value of π
+        self.pi = 3.1416  
 
     def get_area(self):
         return self.pi * self.radius * self.radius
